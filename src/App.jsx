@@ -1,4 +1,22 @@
-import { useState } from 'react'
+// src/App.jsx
+
+import Header from 'C:/pruebaramas/src/componentes/header.jsx'; // 1. Importas el módulo
+function App() {
+  return (
+    <div>
+      <Header /> {/* 2. Lo utilizas aquí */}
+      
+      <main style={{ padding: '20px' }}>
+        <h2>Bienvenido a la página principal</h2>
+        <p>Este es el contenido principal de la app.</p>
+      </main>
+    </div>
+  );
+}
+
+export default App;
+
+/*import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -120,3 +138,4 @@ function App() {
 }
 
 export default App
+*/
