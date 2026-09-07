@@ -5,17 +5,17 @@ function Header() {
   const logo = "MiEmpresa";
 
   return (
-    <header class="header">
-        <div class="header-container">
-            <a href="#" class="logo">
-                <span class="logo-lin">LIN</span>
-                <span class="logo-tech">TECH</span>
+    <header className="header">
+        <div className="header-container">
+            <a href="#" className="logo">
+                <span className="logo-lin">LIN</span>
+                <span className="logo-tech">TECH</span>
             </a>
-            <div class="buscador-container">
-                <input type="search" class="buscador-input" placeholder="Buscar productos..." />
+            <div className="buscador-container">
+                <input type="search" className="buscador-input" placeholder="Buscar productos..." />
             </div>
-            <nav class="nav">
-                <ul class="nav-list">
+            <nav className="nav">
+                <ul className="nav-list">
                     <li>
                         <a href="#">Inicio</a>
                     </li>
@@ -33,11 +33,11 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <div class="header-actions">
-                <button class="icon-btn">
+            <div className="header-actions">
+                <button className="icon-btn">
                     🛒
                 </button>
-                <button class="login-btn">
+                <button className="login-btn">
                     Iniciar sesión
                 </button>
             </div>
