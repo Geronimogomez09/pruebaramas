@@ -5,7 +5,7 @@ import Hero from 'C:/pruebaramas/src/componentes/Hero.jsx';
 function App() {
   return (
     <div>
-      <Header /> {/* 2. Lo utilizas aquí */}
+      <Header />
       <Hero /> {/* 1. Lo utilizas aquí */}
       <main style={{ padding: '20px' }}>
         <h2>Bienvenido a la página principal</h2>
