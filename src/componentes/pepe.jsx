@@ -1,3 +1,13 @@
-function hero() {
-    <h2>hola pepe</h2>
+// src/components/hero.jsx
+function pepe() {
+  return (
+    <section>
+   
+        <h1>hola pepe</h1>
+       
+    
+</section>
+  );
 }
+
+export default pepe;
