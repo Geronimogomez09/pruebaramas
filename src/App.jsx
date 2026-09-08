@@ -1,5 +1,5 @@
 // src/App.jsx
-
+import Pepe from 'C:/pruebaramas/src/componentes/pepe.jsx';
 import Header from 'C:/pruebaramas/src/componentes/header.jsx';// 1. Importas el módulo
 import Hero from 'C:/pruebaramas/src/componentes/Hero.jsx';
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <h2>Bienvenido a la página principal</h2>
         <p>Este es el contenido principal de la app.</p>
       </main>
+      <Pepe />
     </div>
   );
 }
