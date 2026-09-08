@@ -1,13 +1,10 @@
 // src/components/hero.jsx
-function pepe() {
+function Pepe() {
   return (
     <section>
-   
-        <h1>hola pepe</h1>
-       
-    
-</section>
+      <h1>hola pepe</h1>
+    </section>
   );
 }
 
-export default pepe;
+export default Pepe;

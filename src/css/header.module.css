@@ -41,8 +41,8 @@ body {
         Geneva,
         Verdana,
         sans-serif;
-    background: #0d0f86;
-    color: #ebebeb;
+    background: #ebebeb;
+    color: #0b1120;
     min-height: 100vh;
     overflow-x: hidden;
 
@@ -96,11 +96,11 @@ body {
     gap: 5px;
 }
 
-.logo-lin {
+.logo-wiki {
     color: white;
 }
 
-.logo-tech {
+.logo-craft {
     color: var(--primary);
 }
 
@@ -136,7 +136,14 @@ body {
     overflow: hidden;
     display: none;
 }
-
+@media (max-width: 1000px) {
+    .buscador-container {
+        opacity: 0;
+        width: 0;
+        overflow: hidden;
+        display: none;
+    }
+}
 
 /* NAV */
 
