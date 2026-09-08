@@ -242,4 +242,5 @@ body {
 
 main {
     margin-top: 80px;
+    color: var(--bg);
 }
